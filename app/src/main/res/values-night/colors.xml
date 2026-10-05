@@ -1,0 +1,35 @@
+<resources>
+    <!-- default colours (dark): soft blue, page almost black with blue tint, cards little lighter -->
+    <color name="md_primary">#A9C7FF</color>
+    <color name="md_on_primary">#003062</color>
+    <color name="md_primary_container">#00468B</color>
+    <color name="md_on_primary_container">#D6E3FF</color>
+    <color name="md_secondary">#BDC7DC</color>
+    <color name="md_on_secondary">#273141</color>
+    <color name="md_secondary_container">#3E4758</color>
+    <color name="md_on_secondary_container">#D9E3F9</color>
+    <color name="md_tertiary">#DFBAE6</color>
+    <color name="md_on_tertiary">#412649</color>
+    <color name="md_tertiary_container">#593C61</color>
+    <color name="md_on_tertiary_container">#FAD7FF</color>
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+    <color name="md_background">#121317</color>
+    <color name="md_on_background">#E2E2E7</color>
+    <color name="md_surface">#121317</color>
+    <color name="md_on_surface">#E2E2E7</color>
+    <color name="md_surface_variant">#43474E</color>
+    <color name="md_on_surface_variant">#C4C6CF</color>
+    <color name="md_outline">#8E9099</color>
+    <color name="md_outline_variant">#43474E</color>
+    <color name="md_inverse_surface">#E2E2E7</color>
+    <color name="md_inverse_on_surface">#2F3034</color>
+    <color name="md_inverse_primary">#275EA7</color>
+    <color name="md_surface_container_lowest">#0C0E12</color>
+    <color name="md_surface_container_low">#1A1C1F</color>
+    <color name="md_surface_container">#1E2023</color>
+    <color name="md_surface_container_high">#282A2E</color>
+    <color name="md_surface_container_highest">#333539</color>
+</resources>

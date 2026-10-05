@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Edge Volume</string>
-    <string name="service_desc">Puts a tiny invisible strip on the screen edge. Swipe in from it to open the volume panel. It does not read your screen or collect anything.</string>
+    <string name="app_name">Edge Action</string>
+    <string name="service_desc">Puts small strips on the screen edges. Swipe in from a strip to run its action (volume panel, open an app, ...). It does not read your screen or collect anything.</string>
 </resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- explanations moved here so screens stay clean, one short line each -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="16dp"
+        android:text="How it works"
+        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+        android:textColor="?attr/colorOnSurface" />
+
+    <LinearLayout style="@style/EdgeListRow">
+        <TextView
+            style="@style/EdgeIconBox"
+            android:gravity="center"
+            android:text="1"
+            android:textAppearance="?attr/textAppearanceTitleSmall"
+            android:textColor="?attr/colorOnSecondaryContainer" />
+        <TextView
+            style="@style/EdgeHeadline"
+            android:text="Turn on Edge Action in Accessibility" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/EdgeListRow">
+        <TextView
+            style="@style/EdgeIconBox"
+            android:gravity="center"
+            android:text="2"
+            android:textAppearance="?attr/textAppearanceTitleSmall"
+            android:textColor="?attr/colorOnSecondaryContainer" />
+        <TextView
+            style="@style/EdgeHeadline"
+            android:text="Add a strip and place it on an edge" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/EdgeListRow">
+        <TextView
+            style="@style/EdgeIconBox"
+            android:gravity="center"
+            android:text="3"
+            android:textAppearance="?attr/textAppearanceTitleSmall"
+            android:textColor="?attr/colorOnSecondaryContainer" />
+        <TextView
+            style="@style/EdgeHeadline"
+            android:text="Swipe in from the strip to run its action" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/EdgeListRow">
+        <TextView
+            style="@style/EdgeIconBox"
+            android:gravity="center"
+            android:text="4"
+            android:textAppearance="?attr/textAppearanceTitleSmall"
+            android:textColor="?attr/colorOnSecondaryContainer" />
+        <TextView
+            style="@style/EdgeHeadline"
+            android:text="Hide the preview once it is placed. It keeps working" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/EdgeListRow">
+        <ImageView
+            style="@style/EdgeIconBox"
+            android:src="@drawable/ic_info" />
+        <TextView
+            style="@style/EdgeSupporting"
+            android:text="Android keeps only 200 dp of each edge free from the back gesture. Strips on one edge share it." />
+    </LinearLayout>
+</LinearLayout>

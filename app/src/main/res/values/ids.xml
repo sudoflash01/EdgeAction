@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- view tags for Anim.kt, to remember current icon and running colour animation -->
+    <item name="tag_icon" type="id" />
+    <item name="tag_anim" type="id" />
+</resources>

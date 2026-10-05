@@ -1,3 +1,37 @@
 <resources>
-    <color name="ic_bg">#1B1F2A</color>
+    <color name="ic_bg">#000000</color>
+
+    <!-- default colours (light): blue. used when dynamic colour is off or not available -->
+    <color name="md_primary">#275EA7</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#D6E3FF</color>
+    <color name="md_on_primary_container">#001B3D</color>
+    <color name="md_secondary">#555F71</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#D9E3F9</color>
+    <color name="md_on_secondary_container">#121C2B</color>
+    <color name="md_tertiary">#72547A</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#FAD7FF</color>
+    <color name="md_on_tertiary_container">#2A1133</color>
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+    <color name="md_background">#F9F9FE</color>
+    <color name="md_on_background">#1A1C1F</color>
+    <color name="md_surface">#F9F9FE</color>
+    <color name="md_on_surface">#1A1C1F</color>
+    <color name="md_surface_variant">#E0E2EC</color>
+    <color name="md_on_surface_variant">#43474E</color>
+    <color name="md_outline">#74777F</color>
+    <color name="md_outline_variant">#C4C6CF</color>
+    <color name="md_inverse_surface">#2F3034</color>
+    <color name="md_inverse_on_surface">#F1F0F5</color>
+    <color name="md_inverse_primary">#A9C7FF</color>
+    <color name="md_surface_container_lowest">#FFFFFF</color>
+    <color name="md_surface_container_low">#F4F3F8</color>
+    <color name="md_surface_container">#EEEDF3</color>
+    <color name="md_surface_container_high">#E8E8ED</color>
+    <color name="md_surface_container_highest">#E2E2E7</color>
 </resources>

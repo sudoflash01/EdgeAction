@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- needed only so "Open an app" picker can show launcher apps (android 11+). no internet permission -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+
     <application
         android:allowBackup="false"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.DeviceDefault.DayNight">
+        android:theme="@style/Theme.EdgeAction">
 
         <!-- settings screen, accessibility page opens this too -->
         <activity android:name=".MainActivity" android:exported="true" />
 
-        <!-- launcher icon lives here so we can hide it without touching the screen above -->
+        <!-- home + settings are inside MainActivity (bottom nav), editing a strip is a separate screen -->
+        <activity
+            android:name=".StripEditActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- launcher icon is here so we can hide it without touching the screen above -->
         <activity-alias
             android:name=".LauncherAlias"
             android:exported="true"

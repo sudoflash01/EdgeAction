@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- app logo: white arrow + cyan bar. kept small so it fits inside the 66dp safe zone -->
+<!-- single colour logo for themed icons (android 13+) -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
     <path
-        android:fillColor="#FFFFFF"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M52.88,33.2 L58,38.36 L42.4,53.96 L58,69.56 L52.88,74.72 L32.08,53.96 Z" />
     <path
-        android:fillColor="#0CC0DF"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M68.24,29.76 L75.92,29.76 L75.92,78.24 L68.24,78.24 Z" />
 </vector>

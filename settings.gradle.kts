@@ -4,5 +4,5 @@ pluginManagement {
 dependencyResolutionManagement {
     repositories { google(); mavenCentral() }
 }
-rootProject.name = "EdgeVolume"
+rootProject.name = "EdgeAction"
 include(":app")
