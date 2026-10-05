@@ -12,14 +12,14 @@
 > Renamed from **Edge Volume**. The package is `com.sudoflash01.edgeaction`, so Android treats it as a new app: uninstall the old Edge Volume, then turn the Accessibility service on again for Edge Action.
 
 <p align="center">
-  <img src="screenshots/screenshot1.png" width="30%" alt="Home: status, edge space and strip list">
-  <img src="screenshots/screenshot2.png" width="30%" alt="Strip editor: gestures">
-  <img src="screenshots/screenshot3.png" width="30%" alt="Strip editor: position, size and colour">
+  <img src="screenshots/screenshot1.jpg" width="30%" alt="Home: status, edge space and strip list">
+  <img src="screenshots/screenshot2.jpg" width="30%" alt="Strip editor: gestures">
+  <img src="screenshots/screenshot3.jpg" width="30%" alt="Strip editor: position, size and colour">
 </p>
 <p align="center">
-  <img src="screenshots/screenshot4.png" width="30%" alt="Swipe in action list">
-  <img src="screenshots/screenshot5.png" width="30%" alt="Settings">
-  <img src="screenshots/screenshot6.png" width="30%" alt="Dark theme">
+  <img src="screenshots/screenshot4.jpg" width="30%" alt="Swipe in action list">
+  <img src="screenshots/screenshot5.jpg" width="30%" alt="Settings">
+  <img src="screenshots/screenshot6.jpg" width="30%" alt="Dark theme">
 </p>
 
 ## What's new in v2.0
